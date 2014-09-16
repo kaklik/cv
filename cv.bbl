@@ -1,0 +1,495 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \sortlist{entry}{chronological}
+    \entry{pinter2013radio}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=f9c040b89f7f1f98af0086d050e6be63}{Pintér}{P\bibinitperiod}{Teodor}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=800313a242e79711581feb4578ff749e}{Křivskỳ}{K\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=f9c040b89f7f1f98af0086d050e6be63}{Pintér}{P\bibinitperiod}{Teodor}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=800313a242e79711581feb4578ff749e}{Křivskỳ}{K\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0575086e9b0fdd02459ad5dc4f89cad2}
+      \strng{fullhash}{0575086e9b0fdd02459ad5dc4f89cad2}
+      \field{sortinit}{2}
+      \field{labeltitle}{Radio Meteor Scattering with Software Defined Radio based on Open Hardware}
+      \field{booktitle}{Proceedings of the International Meteor Conference, 31st IMC, La Palma, Canary Islands, Spain, 2012}
+      \field{title}{Radio Meteor Scattering with Software Defined Radio based on Open Hardware}
+      \field{volume}{1}
+      \field{year}{2013}
+      \field{pages}{213\bibrangedash 217}
+    \endentry
+    \entry{kaklik_sid}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f4609bdad60dcac87c12c5408b2f948b}{Szylar}{S\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f4609bdad60dcac87c12c5408b2f948b}{Szylar}{S\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4ea2b5496a324e38adc36984d5cd4772}
+      \strng{fullhash}{4ea2b5496a324e38adc36984d5cd4772}
+      \field{sortinit}{2}
+      \field{labeltitle}{Measuring of ionospheric disturbances with Soware Defined Radio based on Open Hardware}
+      \field{booktitle}{{Acta Polytechnica}}
+      \field{month}{06}
+      \field{title}{Measuring of ionospheric disturbances with Soware Defined Radio based on Open Hardware}
+      \field{year}{2012}
+      \keyw{SID}
+    \endentry
+  \endsortlist
+  \sortlist{entry}{ydnt}
+    \entry{pinter2013radio}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=f9c040b89f7f1f98af0086d050e6be63}{Pintér}{P\bibinitperiod}{Teodor}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=800313a242e79711581feb4578ff749e}{Křivskỳ}{K\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=f9c040b89f7f1f98af0086d050e6be63}{Pintér}{P\bibinitperiod}{Teodor}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=800313a242e79711581feb4578ff749e}{Křivskỳ}{K\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0575086e9b0fdd02459ad5dc4f89cad2}
+      \strng{fullhash}{0575086e9b0fdd02459ad5dc4f89cad2}
+      \field{sortinit}{2}
+      \field{labeltitle}{Radio Meteor Scattering with Software Defined Radio based on Open Hardware}
+      \field{booktitle}{Proceedings of the International Meteor Conference, 31st IMC, La Palma, Canary Islands, Spain, 2012}
+      \field{title}{Radio Meteor Scattering with Software Defined Radio based on Open Hardware}
+      \field{volume}{1}
+      \field{year}{2013}
+      \field{pages}{213\bibrangedash 217}
+    \endentry
+    \entry{kaklik_sid}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f4609bdad60dcac87c12c5408b2f948b}{Szylar}{S\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f4609bdad60dcac87c12c5408b2f948b}{Szylar}{S\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4ea2b5496a324e38adc36984d5cd4772}
+      \strng{fullhash}{4ea2b5496a324e38adc36984d5cd4772}
+      \field{sortinit}{2}
+      \field{labeltitle}{Measuring of ionospheric disturbances with Soware Defined Radio based on Open Hardware}
+      \field{booktitle}{{Acta Polytechnica}}
+      \field{month}{06}
+      \field{title}{Measuring of ionospheric disturbances with Soware Defined Radio based on Open Hardware}
+      \field{year}{2012}
+      \keyw{SID}
+    \endentry
+  \endsortlist
+\endrefsection
+
+\refsection{2}
+  \sortlist{entry}{chronological}
+    \entry{pinter2013radio}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=f9c040b89f7f1f98af0086d050e6be63}{Pintér}{P\bibinitperiod}{Teodor}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=800313a242e79711581feb4578ff749e}{Křivskỳ}{K\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=f9c040b89f7f1f98af0086d050e6be63}{Pintér}{P\bibinitperiod}{Teodor}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=800313a242e79711581feb4578ff749e}{Křivskỳ}{K\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0575086e9b0fdd02459ad5dc4f89cad2}
+      \strng{fullhash}{0575086e9b0fdd02459ad5dc4f89cad2}
+      \field{sortinit}{2}
+      \field{labeltitle}{Radio Meteor Scattering with Software Defined Radio based on Open Hardware}
+      \field{booktitle}{Proceedings of the International Meteor Conference, 31st IMC, La Palma, Canary Islands, Spain, 2012}
+      \field{title}{Radio Meteor Scattering with Software Defined Radio based on Open Hardware}
+      \field{volume}{1}
+      \field{year}{2013}
+      \field{pages}{213\bibrangedash 217}
+    \endentry
+    \entry{kaklik_sid}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f4609bdad60dcac87c12c5408b2f948b}{Szylar}{S\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f4609bdad60dcac87c12c5408b2f948b}{Szylar}{S\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4ea2b5496a324e38adc36984d5cd4772}
+      \strng{fullhash}{4ea2b5496a324e38adc36984d5cd4772}
+      \field{sortinit}{2}
+      \field{labeltitle}{Measuring of ionospheric disturbances with Soware Defined Radio based on Open Hardware}
+      \field{booktitle}{{Acta Polytechnica}}
+      \field{month}{06}
+      \field{title}{Measuring of ionospheric disturbances with Soware Defined Radio based on Open Hardware}
+      \field{year}{2012}
+      \keyw{SID}
+    \endentry
+  \endsortlist
+  \sortlist{entry}{ydnt}
+    \entry{pinter2013radio}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=f9c040b89f7f1f98af0086d050e6be63}{Pintér}{P\bibinitperiod}{Teodor}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=800313a242e79711581feb4578ff749e}{Křivskỳ}{K\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=f9c040b89f7f1f98af0086d050e6be63}{Pintér}{P\bibinitperiod}{Teodor}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=800313a242e79711581feb4578ff749e}{Křivskỳ}{K\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0575086e9b0fdd02459ad5dc4f89cad2}
+      \strng{fullhash}{0575086e9b0fdd02459ad5dc4f89cad2}
+      \field{sortinit}{2}
+      \field{labeltitle}{Radio Meteor Scattering with Software Defined Radio based on Open Hardware}
+      \field{booktitle}{Proceedings of the International Meteor Conference, 31st IMC, La Palma, Canary Islands, Spain, 2012}
+      \field{title}{Radio Meteor Scattering with Software Defined Radio based on Open Hardware}
+      \field{volume}{1}
+      \field{year}{2013}
+      \field{pages}{213\bibrangedash 217}
+    \endentry
+    \entry{kaklik_sid}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f4609bdad60dcac87c12c5408b2f948b}{Szylar}{S\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f4609bdad60dcac87c12c5408b2f948b}{Szylar}{S\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4ea2b5496a324e38adc36984d5cd4772}
+      \strng{fullhash}{4ea2b5496a324e38adc36984d5cd4772}
+      \field{sortinit}{2}
+      \field{labeltitle}{Measuring of ionospheric disturbances with Soware Defined Radio based on Open Hardware}
+      \field{booktitle}{{Acta Polytechnica}}
+      \field{month}{06}
+      \field{title}{Measuring of ionospheric disturbances with Soware Defined Radio based on Open Hardware}
+      \field{year}{2012}
+      \keyw{SID}
+    \endentry
+  \endsortlist
+\endrefsection
+
+\refsection{3}
+  \sortlist{entry}{chronological}
+    \entry{pinter2013radio}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=f9c040b89f7f1f98af0086d050e6be63}{Pintér}{P\bibinitperiod}{Teodor}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=800313a242e79711581feb4578ff749e}{Křivskỳ}{K\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=f9c040b89f7f1f98af0086d050e6be63}{Pintér}{P\bibinitperiod}{Teodor}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=800313a242e79711581feb4578ff749e}{Křivskỳ}{K\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0575086e9b0fdd02459ad5dc4f89cad2}
+      \strng{fullhash}{0575086e9b0fdd02459ad5dc4f89cad2}
+      \field{sortinit}{2}
+      \field{labeltitle}{Radio Meteor Scattering with Software Defined Radio based on Open Hardware}
+      \field{booktitle}{Proceedings of the International Meteor Conference, 31st IMC, La Palma, Canary Islands, Spain, 2012}
+      \field{title}{Radio Meteor Scattering with Software Defined Radio based on Open Hardware}
+      \field{volume}{1}
+      \field{year}{2013}
+      \field{pages}{213\bibrangedash 217}
+    \endentry
+    \entry{kaklik_sid}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f4609bdad60dcac87c12c5408b2f948b}{Szylar}{S\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f4609bdad60dcac87c12c5408b2f948b}{Szylar}{S\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4ea2b5496a324e38adc36984d5cd4772}
+      \strng{fullhash}{4ea2b5496a324e38adc36984d5cd4772}
+      \field{sortinit}{2}
+      \field{labeltitle}{Measuring of ionospheric disturbances with Soware Defined Radio based on Open Hardware}
+      \field{booktitle}{{Acta Polytechnica}}
+      \field{month}{06}
+      \field{title}{Measuring of ionospheric disturbances with Soware Defined Radio based on Open Hardware}
+      \field{year}{2012}
+      \keyw{SID}
+    \endentry
+  \endsortlist
+  \sortlist{entry}{ydnt}
+    \entry{pinter2013radio}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=f9c040b89f7f1f98af0086d050e6be63}{Pintér}{P\bibinitperiod}{Teodor}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=800313a242e79711581feb4578ff749e}{Křivskỳ}{K\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=f9c040b89f7f1f98af0086d050e6be63}{Pintér}{P\bibinitperiod}{Teodor}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=800313a242e79711581feb4578ff749e}{Křivskỳ}{K\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0575086e9b0fdd02459ad5dc4f89cad2}
+      \strng{fullhash}{0575086e9b0fdd02459ad5dc4f89cad2}
+      \field{sortinit}{2}
+      \field{labeltitle}{Radio Meteor Scattering with Software Defined Radio based on Open Hardware}
+      \field{booktitle}{Proceedings of the International Meteor Conference, 31st IMC, La Palma, Canary Islands, Spain, 2012}
+      \field{title}{Radio Meteor Scattering with Software Defined Radio based on Open Hardware}
+      \field{volume}{1}
+      \field{year}{2013}
+      \field{pages}{213\bibrangedash 217}
+    \endentry
+    \entry{kaklik_sid}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f4609bdad60dcac87c12c5408b2f948b}{Szylar}{S\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f4609bdad60dcac87c12c5408b2f948b}{Szylar}{S\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4ea2b5496a324e38adc36984d5cd4772}
+      \strng{fullhash}{4ea2b5496a324e38adc36984d5cd4772}
+      \field{sortinit}{2}
+      \field{labeltitle}{Measuring of ionospheric disturbances with Soware Defined Radio based on Open Hardware}
+      \field{booktitle}{{Acta Polytechnica}}
+      \field{month}{06}
+      \field{title}{Measuring of ionospheric disturbances with Soware Defined Radio based on Open Hardware}
+      \field{year}{2012}
+      \keyw{SID}
+    \endentry
+  \endsortlist
+\endrefsection
+
+\refsection{4}
+  \sortlist{entry}{chronological}
+    \entry{pinter2013radio}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=f9c040b89f7f1f98af0086d050e6be63}{Pintér}{P\bibinitperiod}{Teodor}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=800313a242e79711581feb4578ff749e}{Křivskỳ}{K\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=f9c040b89f7f1f98af0086d050e6be63}{Pintér}{P\bibinitperiod}{Teodor}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=800313a242e79711581feb4578ff749e}{Křivskỳ}{K\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0575086e9b0fdd02459ad5dc4f89cad2}
+      \strng{fullhash}{0575086e9b0fdd02459ad5dc4f89cad2}
+      \field{sortinit}{2}
+      \field{labeltitle}{Radio Meteor Scattering with Software Defined Radio based on Open Hardware}
+      \field{booktitle}{Proceedings of the International Meteor Conference, 31st IMC, La Palma, Canary Islands, Spain, 2012}
+      \field{title}{Radio Meteor Scattering with Software Defined Radio based on Open Hardware}
+      \field{volume}{1}
+      \field{year}{2013}
+      \field{pages}{213\bibrangedash 217}
+    \endentry
+    \entry{kaklik_sid}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f4609bdad60dcac87c12c5408b2f948b}{Szylar}{S\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f4609bdad60dcac87c12c5408b2f948b}{Szylar}{S\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4ea2b5496a324e38adc36984d5cd4772}
+      \strng{fullhash}{4ea2b5496a324e38adc36984d5cd4772}
+      \field{sortinit}{2}
+      \field{labeltitle}{Measuring of ionospheric disturbances with Soware Defined Radio based on Open Hardware}
+      \field{booktitle}{{Acta Polytechnica}}
+      \field{month}{06}
+      \field{title}{Measuring of ionospheric disturbances with Soware Defined Radio based on Open Hardware}
+      \field{year}{2012}
+      \keyw{SID}
+    \endentry
+  \endsortlist
+  \sortlist{entry}{ydnt}
+    \entry{pinter2013radio}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=f9c040b89f7f1f98af0086d050e6be63}{Pintér}{P\bibinitperiod}{Teodor}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=800313a242e79711581feb4578ff749e}{Křivskỳ}{K\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=f9c040b89f7f1f98af0086d050e6be63}{Pintér}{P\bibinitperiod}{Teodor}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=800313a242e79711581feb4578ff749e}{Křivskỳ}{K\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0575086e9b0fdd02459ad5dc4f89cad2}
+      \strng{fullhash}{0575086e9b0fdd02459ad5dc4f89cad2}
+      \field{sortinit}{2}
+      \field{labeltitle}{Radio Meteor Scattering with Software Defined Radio based on Open Hardware}
+      \field{booktitle}{Proceedings of the International Meteor Conference, 31st IMC, La Palma, Canary Islands, Spain, 2012}
+      \field{title}{Radio Meteor Scattering with Software Defined Radio based on Open Hardware}
+      \field{volume}{1}
+      \field{year}{2013}
+      \field{pages}{213\bibrangedash 217}
+    \endentry
+    \entry{kaklik_sid}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f4609bdad60dcac87c12c5408b2f948b}{Szylar}{S\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f4609bdad60dcac87c12c5408b2f948b}{Szylar}{S\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4ea2b5496a324e38adc36984d5cd4772}
+      \strng{fullhash}{4ea2b5496a324e38adc36984d5cd4772}
+      \field{sortinit}{2}
+      \field{labeltitle}{Measuring of ionospheric disturbances with Soware Defined Radio based on Open Hardware}
+      \field{booktitle}{{Acta Polytechnica}}
+      \field{month}{06}
+      \field{title}{Measuring of ionospheric disturbances with Soware Defined Radio based on Open Hardware}
+      \field{year}{2012}
+      \keyw{SID}
+    \endentry
+  \endsortlist
+\endrefsection
+
+\refsection{5}
+  \sortlist{entry}{chronological}
+    \entry{pinter2013radio}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=f9c040b89f7f1f98af0086d050e6be63}{Pintér}{P\bibinitperiod}{Teodor}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=800313a242e79711581feb4578ff749e}{Křivskỳ}{K\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=f9c040b89f7f1f98af0086d050e6be63}{Pintér}{P\bibinitperiod}{Teodor}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=800313a242e79711581feb4578ff749e}{Křivskỳ}{K\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0575086e9b0fdd02459ad5dc4f89cad2}
+      \strng{fullhash}{0575086e9b0fdd02459ad5dc4f89cad2}
+      \field{sortinit}{2}
+      \field{labeltitle}{Radio Meteor Scattering with Software Defined Radio based on Open Hardware}
+      \field{booktitle}{Proceedings of the International Meteor Conference, 31st IMC, La Palma, Canary Islands, Spain, 2012}
+      \field{title}{Radio Meteor Scattering with Software Defined Radio based on Open Hardware}
+      \field{volume}{1}
+      \field{year}{2013}
+      \field{pages}{213\bibrangedash 217}
+    \endentry
+    \entry{kaklik_sid}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f4609bdad60dcac87c12c5408b2f948b}{Szylar}{S\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f4609bdad60dcac87c12c5408b2f948b}{Szylar}{S\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4ea2b5496a324e38adc36984d5cd4772}
+      \strng{fullhash}{4ea2b5496a324e38adc36984d5cd4772}
+      \field{sortinit}{2}
+      \field{labeltitle}{Measuring of ionospheric disturbances with Soware Defined Radio based on Open Hardware}
+      \field{booktitle}{{Acta Polytechnica}}
+      \field{month}{06}
+      \field{title}{Measuring of ionospheric disturbances with Soware Defined Radio based on Open Hardware}
+      \field{year}{2012}
+      \keyw{SID}
+    \endentry
+  \endsortlist
+  \sortlist{entry}{ydnt}
+    \entry{pinter2013radio}{inproceedings}{}
+      \name{labelname}{4}{}{%
+        {{hash=f9c040b89f7f1f98af0086d050e6be63}{Pintér}{P\bibinitperiod}{Teodor}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=800313a242e79711581feb4578ff749e}{Křivskỳ}{K\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=f9c040b89f7f1f98af0086d050e6be63}{Pintér}{P\bibinitperiod}{Teodor}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=800313a242e79711581feb4578ff749e}{Křivskỳ}{K\bibinitperiod}{L}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{0575086e9b0fdd02459ad5dc4f89cad2}
+      \strng{fullhash}{0575086e9b0fdd02459ad5dc4f89cad2}
+      \field{sortinit}{2}
+      \field{labeltitle}{Radio Meteor Scattering with Software Defined Radio based on Open Hardware}
+      \field{booktitle}{Proceedings of the International Meteor Conference, 31st IMC, La Palma, Canary Islands, Spain, 2012}
+      \field{title}{Radio Meteor Scattering with Software Defined Radio based on Open Hardware}
+      \field{volume}{1}
+      \field{year}{2013}
+      \field{pages}{213\bibrangedash 217}
+    \endentry
+    \entry{kaklik_sid}{inproceedings}{}
+      \name{labelname}{3}{}{%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f4609bdad60dcac87c12c5408b2f948b}{Szylar}{S\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=b64e56cec3d390caeb4d9f3a04778583}{Kákona}{K\bibinitperiod}{Jakub}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=17f66a776ae84e2057e76a08af1b8c24}{Kákona}{K\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=f4609bdad60dcac87c12c5408b2f948b}{Szylar}{S\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4ea2b5496a324e38adc36984d5cd4772}
+      \strng{fullhash}{4ea2b5496a324e38adc36984d5cd4772}
+      \field{sortinit}{2}
+      \field{labeltitle}{Measuring of ionospheric disturbances with Soware Defined Radio based on Open Hardware}
+      \field{booktitle}{{Acta Polytechnica}}
+      \field{month}{06}
+      \field{title}{Measuring of ionospheric disturbances with Soware Defined Radio based on Open Hardware}
+      \field{year}{2012}
+      \keyw{SID}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
