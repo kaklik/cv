@@ -64,13 +64,19 @@
 \setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue Light}
 
 
-\setmathfont{XITS Math}
+%\setmathfont{XITS Math}
+
+\setmathfont
+[    Extension = .otf,
+      BoldFont = *bold,
+]{xits-math}
+
 
 %%%%%%%%%%
 % Header %
 %%%%%%%%%%
 
-\RequirePackage{tikz}
+\RequirePackage{tikz}	
 
 \newcommand{\rolefont}{%
   \fontsize{14pt}{24pt}\selectfont%
