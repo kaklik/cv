@@ -47,7 +47,8 @@
 %%%%%%%%%
 
 \RequirePackage[quiet]{fontspec}
-\RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
+%\RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
+\RequirePackage[math-style=TeX]{unicode-math}
 
 %\newfontfamily\bodyfont[]{Arial}
 %\newfontfamily\thinfont[]{Arial}
@@ -76,7 +77,7 @@
 % Header %
 %%%%%%%%%%
 
-\RequirePackage{tikz}	
+\RequirePackage{tikz}
 
 \newcommand{\rolefont}{%
   \fontsize{14pt}{24pt}\selectfont%
