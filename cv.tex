@@ -1,13 +1,10 @@
 %!TEX TS-program = xelatex
 \documentclass[]{friggeri-cv}
-\addbibresource{bibliography.bib}
+\addbibresource{bibliography.bib}  % Ensure your .bib file is named correctly
 
 \begin{document}
-\header{Ing. Jakub }{Kákona}
-       {}
+\header{Ing. Jakub }{Kákona}{}
 
-
-% In the aside, each new line forces a line break
 \begin{aside}
   \section{about}
     U Jatek 19
@@ -29,88 +26,41 @@
 \end{aside}
 
 \section{interests}
-
 Radioastronomy, (Opto)electronics, Astronomy, Physics
 
 \section{education}
-
 \begin{entrylist}
-  \entry
-    {since 2014}
-    {Ph.D. {\normalfont Air Traffic Control}}
-    {\emph{Radio position determination of flying objects}}
-    { Faculty of Electrical Engineering - CTU Prague}
-  \entry
-    {2012–2014}
-    {Ing. Aircraft and space systems}
-    {Department of Measurement}
-    { Faculty of Electrical Engineering - CTU, Prague}
-  \entry
-    {2008–2012}
-    {Bc. Laser Technology and Optoelectronics}
-    {Department of Physical Electronics}
-    {Faculty of Nuclear Sciences and Physical Engineering CTU, Prague}
-  \entry
-    {2004–2008}
-    {Electronic Control Systems}
-    {}
-    {High school of Machines and Electrical Engineering in České Budějovice}
+  \entry{since 2014}{Ph.D. {\normalfont Air Traffic Control}}{\emph{Radio position determination of flying objects}}{ Faculty of Electrical Engineering - CTU Prague}
+  \entry{2012–2014}{Ing. Aircraft and space systems}{Department of Measurement}{ Faculty of Electrical Engineering - CTU, Prague}
+  \entry{2008–2012}{Bc. Laser Technology and Optoelectronics}{Department of Physical Electronics}{Faculty of Nuclear Sciences and Physical Engineering CTU, Prague}
+  \entry{2004–2008}{Electronic Control Systems}{}{High school of Machines and Electrical Engineering in České Budějovice}
 \end{entrylist}
 
 \section{experience}
-
 \begin{entrylist}
-  \entry
-    {2014}
-    {ESA Summer of Code in Space}
-    {Projects mentor}
-    {\emph{Station maintenance software; Cubesat automatic reception station}}
-  \entry
-    {2013}
-    {ESA Summer of Code in Space}
-    {Project mentor}
-    {\emph{General purpose radio-astronomy station software}}
-  \entry
-    {2007 - 2013}
-    {Robozor robotics club - České Budějovice}
-    {Supervisor}
-    {}
-  \entry
-    {Since 2010}
-    {Summer school of Astronomy - Radioastronomy group supervisor}
-    {Summer job}
-    {}
+  \entry{2014}{ESA Summer of Code in Space}{Projects mentor}{\emph{Station maintenance software; Cubesat automatic reception station}}
+  \entry{2013}{ESA Summer of Code in Space}{Project mentor}{\emph{General purpose radio-astronomy station software}}
+  \entry{2007 - 2013}{Robozor robotics club - České Budějovice}{Supervisor}{}
+  \entry{Since 2010}{Summer school of Astronomy - Radioastronomy group supervisor}{Summer job}{}
 \end{entrylist}
 
 \section{applications}
-
 \begin{entrylist}
-  \entry
-    {since 2011}
-    {Bolidozor - Radio meteor detection network}
-    {\href{http://wiki.bolidozor.cz/}{bolidozor.cz}}
-    {Software defined receiver design}
-  \entry
-    {since 2004}
-    {MLAB - Opensource Hardware modular electronic prototyping system}
-    {\href{http://wiki.mlab.cz/}{mlab.cz}}
-    {Design of electronic modules and system engineering}
-
+  \entry{since 2011}{Bolidozor - Radio meteor detection network}{\href{http://wiki.bolidozor.cz/}{bolidozor.cz}}{Software defined receiver design}
+  \entry{since 2004}{MLAB - Opensource Hardware modular electronic prototyping system}{\href{http://wiki.mlab.cz/}{mlab.cz}}{Design of electronic modules and system engineering}
 \end{entrylist}
 
 \section{publications}
-
-
+% Article section (already correctly using printbibsection)
 \printbibsection{article}{article in peer-reviewed journal}
-\begin{refsection}
-  \nocite{*}
-  \printbibliography[sorting=chronological, type=inproceedings, title={international and local peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
-\end{refsection}
-\begin{refsection}
-  \nocite{*}
-  \printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
-\end{refsection}
-\printbibsection{misc}{other publications}
-\printbibsection{report}{research reports}
+
+
+\printbibsection{inproceedings}{international and local peer-reviewed conferences/proceedings}
+
+% Miscellaneous publications
+%\printbibsection{misc}{other publications}
+
+% Research reports
+%\printbibsection{report}{research reports}
 
 \end{document}

@@ -50,28 +50,38 @@
 %\RequirePackage[math-style=TeX,vargreek-shape=unicode]{unicode-math}
 \RequirePackage[math-style=TeX]{unicode-math}
 
-%\newfontfamily\bodyfont[]{Arial}
-%\newfontfamily\thinfont[]{Arial}
-%\newfontfamily\headingfont[]{Arial}
-
+%\newfontfamily\bodyfont[]{Helvetica Neue}
+%\newfontfamily\thinfont[]{Helvetica Neue UltraLight}
+%\newfontfamily\headingfont[]{Helvetica Neue Condensed Bold}
 %\defaultfontfeatures{Mapping=tex-text}
-%\setmainfont[Mapping=tex-text, Color=textcolor]{Arial}
+%\setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue Light}
 
 
-\newfontfamily\bodyfont[]{Helvetica Neue}
-\newfontfamily\thinfont[]{Helvetica Neue UltraLight}
-\newfontfamily\headingfont[]{Helvetica Neue Condensed Bold}
-\defaultfontfeatures{Mapping=tex-text}
-\setmainfont[Mapping=tex-text, Color=textcolor]{Helvetica Neue Light}
+% Set the main font with specific styles
+\setmainfont{Helvetica Neue}[
+    UprightFont = *,
+    ItalicFont = * Italic,
+    BoldFont = * Bold,
+    BoldItalicFont = * Bold Italic
+]
 
+\newfontfamily\bodyfont{Helvetica Neue}[
+    UprightFont = *,
+]
 
-%\setmathfont{XITS Math}
+\newfontfamily\thinfont{Helvetica Neue}[
+    UprightFont = * Thin,
+    ItalicFont = * Thin Italic,
+]
 
-\setmathfont
+\newfontfamily\headingfont{Helvetica Neue}[
+    UprightFont = * Condensed Bold
+]
+
+\setmathfont{XITSMath-Regular}
 [    Extension = .otf,
-      BoldFont = *bold,
-]{xits-math}
-
+      BoldFont = XITSMath-Bold,
+]
 
 %%%%%%%%%%
 % Header %
@@ -187,13 +197,14 @@
 % Bibliography %
 %%%%%%%%%%%%%%%%
 
-\RequirePackage[style=verbose, maxnames=99, sorting=ydnt]{biblatex}
+\RequirePackage[style=verbose, maxnames=99, backend=biber, sorting=none]{biblatex}
 
 \DeclareFieldFormat[article]{title}{#1\par}
 \DeclareFieldFormat[inproceedings]{title}{#1\par}
 \DeclareFieldFormat[misc]{title}{#1\par}
 \DeclareFieldFormat[report]{title}{#1\par}
 
+% Article bibliography driver
 \DeclareBibliographyDriver{article}{%
   \printfield{title}%
   \newblock%
@@ -210,10 +221,11 @@
     \setunit*{\addcomma\space}%
     \printfield{year}%
     \newunit%
-  }
+  }%
   \par\vspace{0.3\baselineskip}
 }
 
+% Inproceedings bibliography driver
 \DeclareBibliographyDriver{inproceedings}{%
   \printfield{title}%
   \newblock%
@@ -228,10 +240,11 @@
     \setunit{\addcomma\space}%
     \printlist{location}%
     \newunit%
-  }
+  }%
   \par\vspace{0.3\baselineskip}
 }
 
+% Misc bibliography driver
 \DeclareBibliographyDriver{misc}{%
   \printfield{title}%
   \newblock%
@@ -240,18 +253,17 @@
   \newblock%
   {%
     \footnotesize\addfontfeature{Color=lightgray}\itshape%
-    \printfield{booktitle}%
+    \printfield{howpublished}%
     \setunit*{\addcomma\space}%
     \printfield{note}%
     \setunit*{\addcomma\space}%
     \printfield{year}%
-    \setunit{\addcomma\space}%
-    \printlist{location}%
     \newunit%
-  }
+  }%
   \par\vspace{0.3\baselineskip}
 }
 
+% Report bibliography driver
 \DeclareBibliographyDriver{report}{%
   \printfield{title}%
   \newblock%
@@ -259,37 +271,34 @@
   \par%
   \newblock%
   {%
-    \footnotesize\addfontfeature{Color=lightgray}\itshape%
+    \footnotesize\addfontfeature{Color=lightgray}%
     \printfield{type}%
     \setunit{\space}%
     \printfield{number}%
     \setunit{\addcomma\space}%
     \printfield{year}%
     \newunit%
-  }
+  }%
   \par\vspace{0.3\baselineskip}
 }
 
-\DeclareNameFormat{author}{%
-  \small\addfontfeature{Color=lightgray}%
-  \ifblank{#3}{}{#3\space}#1%
-  \ifthenelse{\value{listcount}<\value{liststop}}
-    {\addcomma\space}
-    {}%
+% Updated sorting template
+\DeclareSortingTemplate{chronological}{
+  \sort[direction=descending]{
+    \field{year}
+    \field{month}
+  }
+  \sort[final]{\citeorder}
 }
 
-\newcommand{\printbibsection}[2]{
+% Command for printing sections of bibliography
+\newcommand{\printbibsection}[2]{%
   \begin{refsection}
     \nocite{*}
-    \printbibliography[sorting=chronological, type={#1}, title={#2}, heading=subbibliography]
+    \newrefcontext[sorting=chronological]
+    \printbibliography[type={#1}, title={#2}, heading=subbibliography]
   \end{refsection}
 }
-
-\DeclareSortingScheme{chronological}{
-  \sort[direction=descending]{\field{year}}
-  \sort[direction=descending]{\field{month}}
-}
-
 
 
 %%%%%%%%%%%%%%%%
